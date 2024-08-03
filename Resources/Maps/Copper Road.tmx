@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="90" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="9" nextobjectid="43">
+ <tileset firstgid="1" source="../../New folder (2)/mapnj/home.tsx"/>
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk0EOgyAQRSkH6KYeoWslNTUuev9z1UnblOAgqKht8l7yQoIDA181BgAAAAAAAAAAAAAAAAAAYIyzX5c8hzjnkzHtMD4874ONHdsGNf+I3PeSUGpK9fIz6wbdexSbyLo6qN077yojoymvdvxNad7Mq3bu/treneInP8lZ2yfMWcY+qK02NCejlNq9Ndf22eKMe/SW/6aO9HeReZxvv0POJd+Xi+znz8f6zZ3PrclZP5Xz0ZnmZr4kv9Q512SvzZfO+ejsf1XJ+QmKynMa
+  </data>
+ </layer>
+ <objectgroup id="3" name="doors">
+  <object id="1" name="1" x="54.5" y="2400.5">
+   <point/>
+  </object>
+  <object id="2" name="door" x="-74.3334" y="1802.79" width="13.3333" height="594.545">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Uchiha Clan"/>
+   </properties>
+  </object>
+  <object id="16" name="door" x="8668" y="1833" width="20" height="566">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Stone Cave"/>
+   </properties>
+  </object>
+  <object id="17" name="2" x="8554" y="2392">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="monsters">
+  <object id="18" name="Green worm" x="445.333" y="2398.67">
+   <point/>
+  </object>
+  <object id="19" name="Green worm" x="722.667" y="2397.33">
+   <point/>
+  </object>
+  <object id="20" name="Green worm" x="1057.33" y="2397.33">
+   <point/>
+  </object>
+  <object id="21" name="Green worm" x="1324" y="2398.67">
+   <point/>
+  </object>
+  <object id="22" name="Green worm" x="1726.67" y="2300">
+   <point/>
+  </object>
+  <object id="23" name="Ghost umbrella" x="2105.33" y="2301.33">
+   <point/>
+  </object>
+  <object id="24" name="Ghost umbrella" x="2441.33" y="2302.33">
+   <point/>
+  </object>
+  <object id="25" name="Ghost umbrella" x="2798.67" y="2394.67">
+   <point/>
+  </object>
+  <object id="26" name="Ghost umbrella" x="3068" y="2394.67">
+   <point/>
+  </object>
+  <object id="27" name="Ghost umbrella" x="3450.67" y="2392">
+   <point/>
+  </object>
+  <object id="28" name="Ghost umbrella" x="3906.67" y="2396">
+   <point/>
+  </object>
+  <object id="29" name="Purple snake" x="4165.33" y="2298.67">
+   <point/>
+  </object>
+  <object id="30" name="Purple snake" x="4484" y="2208">
+   <point/>
+  </object>
+  <object id="31" name="Purple snake" x="4402.67" y="2398.67">
+   <point/>
+  </object>
+  <object id="32" name="Purple snake" x="4840" y="2397.33">
+   <point/>
+  </object>
+  <object id="33" name="Purple snake" x="4997.33" y="2109.33">
+   <point/>
+  </object>
+  <object id="34" name="Purple snake" x="5298.67" y="2396">
+   <point/>
+  </object>
+  <object id="35" name="Purple snake" x="5469.33" y="2105.33">
+   <point/>
+  </object>
+  <object id="36" name="Purple snake" x="6030.67" y="2206.67">
+   <point/>
+  </object>
+  <object id="37" name="Three colors insect" x="6512" y="2396">
+   <point/>
+  </object>
+  <object id="38" name="Three colors insect" x="6796" y="2394.67">
+   <point/>
+  </object>
+  <object id="39" name="Three colors insect" x="7116" y="2394.67">
+   <point/>
+  </object>
+  <object id="40" name="Three colors insect" x="7538.67" y="2396">
+   <point/>
+  </object>
+  <object id="41" name="Three colors insect" x="7816" y="2398.67">
+   <point/>
+  </object>
+  <object id="42" name="Three colors insect" x="8094.67" y="2392">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="walls">
+  <object id="3" x="-84.3333" y="2400" width="8793.33" height="480">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="5" x="1633.33" y="2304" width="960" height="86.667">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="6" x="3838.67" y="2304" width="480" height="10.6667">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="7" x="4318.67" y="2209.33" width="286.667" height="9.33333">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="11" x="4603.03" y="2112.12" width="966.667" height="18.1818">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="13" x="5569.7" y="2109.09" width="384.848" height="293.939">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="14" x="5954.55" y="2212.12" width="187.879" height="190.909">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

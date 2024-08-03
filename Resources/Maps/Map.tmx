@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="1200" tileheight="750" infinite="0" nextlayerid="5" nextobjectid="17">
+ <tileset firstgid="1" name="Map" tilewidth="1200" tileheight="750" tilecount="1" columns="1">
+  <image source="Map.jpg" width="1200" height="750"/>
+ </tileset>
+ <layer id="4" name="Tile Layer 1" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgAAAACAAC
+  </data>
+ </layer>
+ <objectgroup id="3" name="maps">
+  <object id="1" name="Ancient Ruins" x="480.235" y="175.526">
+   <point/>
+  </object>
+  <object id="2" name="Konoha" x="577.7" y="322.127">
+   <point/>
+  </object>
+  <object id="3" name="Uchiha Clan" x="738" y="288.062">
+   <point/>
+  </object>
+  <object id="4" name="Lake" x="232.667" y="362.728">
+   <point/>
+  </object>
+  <object id="5" name="Arena" x="1017.7" y="620.493">
+   <point/>
+  </object>
+  <object id="6" name="Red Pock Mountain" x="953.7" y="535.957">
+   <point/>
+  </object>
+  <object id="7" name="Rock Mountain" x="850.667" y="584.793">
+   <point/>
+  </object>
+  <object id="8" name="Monless Night" x="793.202" y="527.761">
+   <point/>
+  </object>
+  <object id="9" name="Snow Hill" x="696" y="520.062">
+   <point/>
+  </object>
+  <object id="10" name="Snow Moutain" x="798.902" y="464.127">
+   <point/>
+  </object>
+  <object id="11" name="Stone Cave" x="808.836" y="385.395">
+   <point/>
+  </object>
+  <object id="12" name="Copper Road" x="896.431" y="268.559">
+   <point/>
+  </object>
+  <object id="13" name="Behind Konoha" x="488.967" y="402.925">
+   <point/>
+  </object>
+  <object id="14" name="Strange Hill" x="322.667" y="418.324">
+   <point/>
+  </object>
+  <object id="15" name="Strange Moutain Range" x="255.399" y="224.559">
+   <point/>
+  </object>
+  <object id="16" name="Green Moss Forests" x="340.366" y="98.1929">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="50" tilewidth="96" tileheight="96" infinite="0" nextlayerid="9" nextobjectid="151">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="60" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmd9KwzAUh092qU6Hf95DRUTQC9mll16J4izohl54MeYD9EV8Fx/Gp9gQPMdmUtqmTdKs2cnygx8JWdL2G3wX3QC6zXfWlOZvonqPal0383bHnSbylhN5zRJ5/aUr3oW8h++Y8Pax2w3tV3DNs5bWfUSXl1gHmt0tnOfIu4/joWYPCuc58g56AC84nzSU9tDefDjyUohlhh0pOpN7iuHIS/7uaDYEf/dw3NLsUeE8R94qf99lQ/U3gczRZcey+bXoL0/e6K+dvwvXAIbp2l/f70pd+8uF15W/XHhd+btuvGcVDdXfk566IfpblxD9rUuI/jYlgbD8rUv0N/qr6++Px3cHH/76fFfy4S8HXpf+cuC18Xf5rsuRl5KAmb/z3MiN18Zfzrw2/nLmtfGXMy8lgejvOvl7q7GHu7/3Aq6fBKRYGGGfxd/al2q/ib8Jjq8NTaBbfx8l5xg7kXNcU15fl/cSrzOFjEn1/y99NpV7KavmvRNueem5P6Bd6Rqr4n2o4b2p+K31M8eL83TogK+uQ1HmvdqgnmLPN6gXlueOs6aK9f+56qzJuu4enfO2vIX7pLLKz22fsc13ULXugpdTifcXtO7YZg==
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="60" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmUsOwjAMRGmvwYLsuQeCW/WuLHsJGqkWJoBEK814SPIkVD6LaBjH47SHA5/jgF/jRFhjCyjNajoNhsdKtKB3Lq61M6+vFrz1dL31gta65NGEXeF3slaG3pzBCjm8R+t53PfbP2veimlV0cuo60y0Xj9ntNSjW5mvPC34y5onVXqVkfWiajrrTMPzfSQsX1VmLFYOZZJAFjHPv9G1nLFe5bUjSK6mVXQj8bWs1qsRqPSrkTQ7e72R3ppOtN6yniNB+uvzN1qngfRYadYwLJNI598wn33mknpWOKx7G6nI3OgejZ6vFLw1GPtXxVu/f5Eo+YvO30z0WdAAa50+fPdyZeLPgihs3lC6n4M68/vZouxX0XmE4JuuNLznMRPWHi73cwserzU+RfnrdYLnDXsGHKqXCXPGulb8X96Lz7elfi4V6+10Oh0WD5KGNXg=
+  </data>
+ </layer>
+ <objectgroup id="3" name="walls">
+  <properties>
+   <property name="type" type="int" value="1"/>
+  </properties>
+  <object id="3" x="-49" y="4320" width="5863.5" height="480">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="9" x="3077.58" y="4227.88" width="2196.97" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="10" x="3456.36" y="4130.91" width="1533.33" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="11" x="3738.18" y="3746.06" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="12" x="3662.42" y="3843.03" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="24" x="3733.64" y="3362.73" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="25" x="3657.88" y="3459.7" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="30" x="3743.03" y="2978.63" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="31" x="3667.27" y="3075.6" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="32" x="3738.49" y="2595.3" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="33" x="3662.73" y="2692.27" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="34" x="3740.52" y="2210.83" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="35" x="3664.76" y="2307.8" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="36" x="3735.98" y="1827.5" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="37" x="3660.22" y="1924.47" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="38" x="3745.37" y="1443.4" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="39" x="3669.61" y="1540.37" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="40" x="3740.83" y="1060.07" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="41" x="3665.07" y="1157.04" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="43" x="3669.85" y="774.47" width="1124.24" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="48" x="3832.89" y="588.377" width="772.636" height="11.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="51" x="2974.55" y="2212.73" width="669.697" height="9.09091">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="52" x="1607.88" y="3940" width="439.394" height="9.09091">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="114" x="5756" y="15.5" width="3" height="3785.5">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="monsters">
+  <object id="141" name="Snail" x="4372" y="4316">
+   <point/>
+  </object>
+  <object id="142" name="Snail" x="3958" y="4312">
+   <point/>
+  </object>
+  <object id="143" name="Snail" x="3592" y="4314">
+   <point/>
+  </object>
+  <object id="144" name="Green frog" x="3024" y="4320">
+   <point/>
+  </object>
+  <object id="145" name="Green frog" x="2642" y="4318">
+   <point/>
+  </object>
+  <object id="146" name="Green frog" x="2356" y="4320">
+   <point/>
+  </object>
+  <object id="147" name="Stone porcupine" x="1670.67" y="4313">
+   <point/>
+  </object>
+  <object id="148" name="Stone porcupine" x="1361.67" y="4314">
+   <point/>
+  </object>
+  <object id="149" name="Stone porcupine" x="1001.67" y="4315">
+   <point/>
+  </object>
+  <object id="150" name="Stone porcupine" x="664" y="4318">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="doors">
+  <object id="115" name="door" x="5788.17" y="3799.78" width="6.5" height="519.394">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Uchiha Clan"/>
+   </properties>
+  </object>
+  <object id="120" name="1" x="5716" y="4319">
+   <point/>
+  </object>
+  <object id="131" name="door" x="-32.6742" y="3744.03" width="6.5" height="576">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Behind Konoha"/>
+   </properties>
+  </object>
+  <object id="132" name="2" x="47.75" y="4320.33">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

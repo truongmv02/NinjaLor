@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="10" nextobjectid="29">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="2" name="Tile Layer 2" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztVm0OgyAMZf7Qa+1CJDsCR+Noc4nErj7aokh04yXE2D6Q1w/QuY6Ojo6OHKZhHTW5e/gtMA7rqMndw2+BcYm/Va+Vu4ffAr+cX9RPaT/W/uX7l3p0toUSfm2geCMN2nwULzSf8KOFXxuon47Wc9Ij6bXyayP3fanmtFxS20eHlsvW+UX1KOUc5IbHJir8yPibnj4LqFc1XRbuwg9cm8avLpDBWl9SvjRuCV+DdpZr/tI9Wc62M/VqXIsfaQA9WdTrtCf5eYVqPPEteqX/M4v/TvVcI79X1ZvuMnSfafdjjf4tPZ9RnZboRXa6B80v6dViVLI+7V3gixKf7026z3JnR+t6lvQezS/KLa3vXE4mwKF+yWathZQb+h9BfcAWnIPrfM3nunLvKEaN9CJt0Jb0oXwJ+jb1JNmtY57/TIO+S3z+5GvwdSheDxfSQDZtSOtcEaV6vaLX30CvB3v3gkY0x4MYXBH/UM9vNlVs1A==
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztkjEOgzAMRQnn6Na5W0/AxGUikS5de3QQEBQs2zEUq1L1n/QVxdjG39A0AAAAAAAAAAAAAACAf+IdFnlxa/16nyH79fL8cPJbm1fas7dfj76Wmbk9l3W1+lrOvV3UBb6O8gx7afTr82E6U6GBEY1b846KzvFapeXTk/Oi9PlkJSZmkNbn631cJcFbjov+IrknUhP3OxD/ISmm7afWx/iezUM5e1Q8ktjch+SYPfxA3Jzi92Wk9RH3fibnyP7KnBFGNrOU
+  </data>
+ </layer>
+ <objectgroup id="6" name="walls">
+  <object id="1" x="-26" y="2400" width="5805" height="479">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="6" x="-29" y="1160" width="12" height="1240">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="doors">
+  <object id="4" name="door" x="5778.76" y="2023.15" width="18" height="378">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Green Moss Forest"/>
+   </properties>
+  </object>
+  <object id="5" name="1" x="5720" y="2400">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="monsters">
+  <object id="9" name="Ghost centipede" x="5318.67" y="2397.33">
+   <point/>
+  </object>
+  <object id="10" name="Ghost centipede" x="4993.33" y="2396">
+   <point/>
+  </object>
+  <object id="11" name="Ghost centipede" x="4712" y="2398.67">
+   <point/>
+  </object>
+  <object id="12" name="Ghost centipede" x="4489.33" y="2396">
+   <point/>
+  </object>
+  <object id="13" name="Strong ant" x="4220" y="2398.67">
+   <point/>
+  </object>
+  <object id="14" name="Strong ant" x="4052" y="2394.67">
+   <point/>
+  </object>
+  <object id="15" name="Strong ant" x="3805.33" y="2400">
+   <point/>
+  </object>
+  <object id="16" name="Strong ant" x="3533.33" y="2394.67">
+   <point/>
+  </object>
+  <object id="17" name="Helmet bug" x="3210.67" y="2397.33">
+   <point/>
+  </object>
+  <object id="18" name="Helmet bug" x="3029.33" y="2398.67">
+   <point/>
+  </object>
+  <object id="19" name="Helmet bug" x="2829.33" y="2397.33">
+   <point/>
+  </object>
+  <object id="20" name="Helmet bug" x="2594.67" y="2400">
+   <point/>
+  </object>
+  <object id="21" name="Ice devil" x="2365.33" y="2396">
+   <point/>
+  </object>
+  <object id="22" name="Ice devil" x="2164" y="2400">
+   <point/>
+  </object>
+  <object id="23" name="Ice devil" x="1909.33" y="2397.33">
+   <point/>
+  </object>
+  <object id="24" name="Ice devil" x="1608" y="2396">
+   <point/>
+  </object>
+  <object id="25" name="Sea crab" x="900" y="2398.67">
+   <point/>
+  </object>
+  <object id="26" name="Sea crab" x="673.333" y="2398.67">
+   <point/>
+  </object>
+  <object id="27" name="Sea crab" x="576" y="2400">
+   <point/>
+  </object>
+  <object id="28" name="Sea crab" x="354.667" y="2396">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

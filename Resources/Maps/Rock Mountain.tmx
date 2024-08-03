@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="9" nextobjectid="91">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="8" name="Tile Layer 3" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztVssOgCAM0/8/+78evJiFwQasBbImHAyQPoSN60qcgOf+Rmtejh2gaS/p39XjH5p2hBdP1jP5tDk0oj23zi4TEb5X84uoC5KDUYfQnOy6y/Irv1fIPfoel/oSyjOKy5orQg+i/2r1SvPcy+HZE4Xa24r1ZkScIfnN9GrhHdG2ml/Lml5tqB7g1dNaE8XLenvUeKPrGQKeczX6H7Qei+7/miZtzwgX8w6XOKLvsHW/JR9PZr05M2ppBGZkmEgkEomz8QJXJn1l
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdl8EOwyAMQ7v/P27tfnenSgiV1E6cwIqUU1vIcxwK+2vbdjLaEfn2brBzW/EOfBvNaQbvGR8yvgJehJmd7xjkOuK9eobkmMV7lb9Vgyz/IqzHTS6sr6PaKnqL0d/i9oxeW8SbkXWR+Sw/jXpNuX4V54reamMVVoZXvUZEP2a/j/Qx0jczNLW06zXx8KJ7g4f9CZ5m2Ct4UWbUQ32N0XNju46iv73n1yztM7y0ch7oYOdVnkOqWdUaW7mozq9R3kxu5Zqnryr3nZm8VeG9x0Z9hd5JvRG5X3tq2/Oius6uv4o3y3OoP5hzbAWv2n8KbZX9+2+RxVv1P1olVPWY1R8rB6qJ5z1G78zaKObOyu9Jnhyx/ACpFkd8
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2GEKgCAMhmHrOB2i+x9LQoQlK9Bh2PY+0A/xV59zlinFcm738bGX5+88vIMk16VdM8yjZU3+sKKGxnjr618iO1jI+nnrX9fcCrVGj0Vkq+zDaLz8Q1tpdwuwq7mSp+4pF74H+skzhL4GAIgqA9RXBkw=
+  </data>
+ </layer>
+ <objectgroup id="4" name="doors">
+  <object id="30" name="door" x="-54" y="2111" width="10" height="288">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Moonless Night"/>
+   </properties>
+  </object>
+  <object id="31" name="1" x="47" y="2401">
+   <point/>
+  </object>
+  <object id="32" name="2" x="5716" y="2399">
+   <point/>
+  </object>
+  <object id="33" name="door" x="5812" y="1975" width="14" height="424">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Red Rock Mountain"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="monsters">
+  <object id="35" name="Zombie" x="448.485" y="2390.91">
+   <point/>
+  </object>
+  <object id="36" name="Zombie" x="815.152" y="2387.88">
+   <point/>
+  </object>
+  <object id="37" name="Zombie" x="1215.15" y="2387.88">
+   <point/>
+  </object>
+  <object id="38" name="Zombie" x="390.909" y="2109.09">
+   <point/>
+  </object>
+  <object id="39" name="Zombie" x="936.364" y="2103.03">
+   <point/>
+  </object>
+  <object id="40" name="Zombie" x="290.909" y="1727.27">
+   <point/>
+  </object>
+  <object id="41" name="Zombie" x="848.485" y="1724.24">
+   <point/>
+  </object>
+  <object id="42" name="Zombie" x="1578.79" y="1724.24">
+   <point/>
+  </object>
+  <object id="43" name="Zombie" x="1869.7" y="2393.94">
+   <point/>
+  </object>
+  <object id="44" name="Big frog" x="233.333" y="1242.42">
+   <point/>
+  </object>
+  <object id="45" name="Big frog" x="751.515" y="866.667">
+   <point/>
+  </object>
+  <object id="46" name="Big frog" x="1130.3" y="866.667">
+   <point/>
+  </object>
+  <object id="48" name="Big frog" x="315.152" y="181.818">
+   <point/>
+  </object>
+  <object id="50" name="Big frog" x="954.545" y="184.848">
+   <point/>
+  </object>
+  <object id="52" name="Big frog" x="1639.39" y="860.606">
+   <point/>
+  </object>
+  <object id="54" name="Big frog" x="1757.58" y="469.697">
+   <point/>
+  </object>
+  <object id="55" name="Big frog" x="2215.15" y="375.758">
+   <point/>
+  </object>
+  <object id="56" name="Blue mouse" x="1684.85" y="1239.39">
+   <point/>
+  </object>
+  <object id="57" name="Blue mouse" x="2221.21" y="1245.45">
+   <point/>
+  </object>
+  <object id="58" name="Blue mouse" x="2603.03" y="951.515">
+   <point/>
+  </object>
+  <object id="59" name="Blue mouse" x="3072.73" y="557.576">
+   <point/>
+  </object>
+  <object id="60" name="Blue mouse" x="2875.76" y="1242.42">
+   <point/>
+  </object>
+  <object id="61" name="Blue mouse" x="3754.55" y="1236.36">
+   <point/>
+  </object>
+  <object id="62" name="Blue mouse" x="3115.15" y="1812.12">
+   <point/>
+  </object>
+  <object id="63" name="Blue mouse" x="3700" y="1436.36">
+   <point/>
+  </object>
+  <object id="64" name="Blue mouse" x="3081.82" y="2200.94">
+   <point/>
+  </object>
+  <object id="65" name="Blue mouse" x="2375.76" y="2110.42">
+   <point/>
+  </object>
+  <object id="66" name="Blue mouse" x="2109.09" y="1718.18">
+   <point/>
+  </object>
+  <object id="76" name="Crocodile" x="3875.76" y="273.975">
+   <point/>
+  </object>
+  <object id="77" name="Crocodile" x="4366.67" y="277.005">
+   <point/>
+  </object>
+  <object id="78" name="Crocodile" x="5051.52" y="183.065">
+   <point/>
+  </object>
+  <object id="79" name="Crocodile" x="4539.4" y="667.914">
+   <point/>
+  </object>
+  <object id="80" name="Crocodile" x="5278.79" y="658.823">
+   <point/>
+  </object>
+  <object id="81" name="Crocodile" x="5275.76" y="949.732">
+   <point/>
+  </object>
+  <object id="82" name="Crocodile" x="5315.15" y="1146.7">
+   <point/>
+  </object>
+  <object id="83" name="Green ear turtle" x="4290.91" y="1527.27">
+   <point/>
+  </object>
+  <object id="84" name="Green ear turtle" x="4687.88" y="1524.24">
+   <point/>
+  </object>
+  <object id="85" name="Green ear turtle" x="5051.52" y="1527.27">
+   <point/>
+  </object>
+  <object id="86" name="Green ear turtle" x="5003.03" y="1915.15">
+   <point/>
+  </object>
+  <object id="87" name="Green ear turtle" x="5487.88" y="1912.12">
+   <point/>
+  </object>
+  <object id="88" name="Green ear turtle" x="3930.3" y="2393.94">
+   <point/>
+  </object>
+  <object id="89" name="Green ear turtle" x="4339.39" y="2393.94">
+   <point/>
+  </object>
+  <object id="90" name="Green ear turtle" x="4709.09" y="2396.97">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="walls">
+  <object id="1" x="-56.335" y="2400.33" width="5886.67" height="481.333">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object id="2" x="-16" y="0" width="14" height="2112">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object id="3" x="0.5" y="-19.5" width="5762" height="20">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object id="4" x="5759.5" y="-14.5" width="22" height="1992">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object id="5" x="4802.33" y="192" width="574" height="12">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="6" x="4993" y="961" width="574" height="15">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="7" x="4706" y="1153" width="957" height="13">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="8" x="4607" y="481" width="194" height="13">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="9" x="3651" y="287" width="1147" height="12">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="10" x="4319" y="671" width="1440" height="12">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="11" x="4032" y="1535" width="1249" height="19">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="12" x="5181" y="1823" width="385" height="12">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="13" x="4801" y="1921" width="958" height="15">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="14" x="3360" y="1440" width="577" height="13">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="15" x="1245.33" y="1247" width="2690.67" height="16">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="16" x="2306" y="1823" width="1148" height="12">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="17" x="2691" y="2209" width="765" height="13">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="18" x="2114" y="2113.33" width="574" height="13">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="19" x="1" y="1728" width="2590" height="17">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="20" x="97" y="2111" width="1246" height="15">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="21" x="-1" y="1152" width="98" height="10">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="22" x="1" y="1247" width="671" height="13">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="23" x="0" y="287" width="287" height="14">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="24" x="-1" y="192" width="1248" height="13">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="25" x="480" y="865" width="1727" height="14">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="26" x="2017" y="384" width="382" height="17">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="27" x="1344" y="480" width="1248" height="12">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="28" x="2305" y="961" width="769" height="17">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="29" x="2784" y="575" width="577" height="19">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

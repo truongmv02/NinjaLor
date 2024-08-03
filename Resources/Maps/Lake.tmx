@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="90" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="11" nextobjectid="30">
+ <tileset firstgid="1" source="home.tsx"/>
+ <tileset firstgid="1126" name="tiled_ninja" tilewidth="96" tileheight="96" tilecount="1125" columns="75">
+  <image source="home.png" width="7200" height="1440"/>
+ </tileset>
+ <layer id="2" name="Tile Layer 1" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJgDAURdEXJ3ENQRcQtHIg1xAsHEOJwziK30IEa2Mk3gOXtJ9XRAIAfFHp1BdOqq3W6lzsi9K0WPPtxfNWKZ+k3lvHO8Q+KFH+2jkfYx+TMNt3s8TGYbHxO/iPAQAAAAAAAPxNlVHITo2jkLEzO6cUO7+78w5hTJOu
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 2" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJgEAUREHPhkxMLcFC7L8BkePA0OSvoDOw+fKmCQAg62hvP/i+q7HO9XSuNdrqXEvnDJ0z7p2po3OGzlk6Z+gMwN+szRJbZksM4Klt7qPW3vqopXOGzhmj8wkOSC/n
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0oEJACAMA8HiMu6/obiCaEvlboLwJAIAADg1R/WC/+3GOufQme58OJfeb+kLAAAAAMBtC4asASA=
+  </data>
+ </layer>
+ <objectgroup id="5" name="walls">
+  <object id="1" x="-55.3333" y="2110.67" width="8734.67" height="8.66667">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="doors">
+  <object id="2" name="door" x="8662" y="1512" width="8" height="600">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Strange Hill"/>
+   </properties>
+  </object>
+  <object id="3" name="1" x="8596" y="2109">
+   <point/>
+  </object>
+  <object id="4" name="2" x="44" y="2108.67">
+   <point/>
+  </object>
+  <object id="5" name="door" x="-44" y="1520" width="6.66667" height="600">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Strange Mountain Range"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="monsters">
+  <object id="7" name="One eyed demon" x="7566" y="2108">
+   <point/>
+  </object>
+  <object id="8" name="One eyed demon" x="7220" y="2107">
+   <point/>
+  </object>
+  <object id="9" name="One eyed demon" x="6954" y="2106">
+   <point/>
+  </object>
+  <object id="10" name="One eyed demon" x="6700" y="2106">
+   <point/>
+  </object>
+  <object id="11" name="Stone scorpion" x="6390" y="2108">
+   <point/>
+  </object>
+  <object id="12" name="Stone scorpion" x="6068" y="2107">
+   <point/>
+  </object>
+  <object id="13" name="Stone scorpion" x="5768" y="2107">
+   <point/>
+  </object>
+  <object id="14" name="Stone scorpion" x="5494" y="2105">
+   <point/>
+  </object>
+  <object id="15" x="5110" y="2104">
+   <point/>
+  </object>
+  <object id="16" name="Giant snail" x="5110" y="2104">
+   <point/>
+  </object>
+  <object id="17" name="Giant snail" x="4752" y="2104">
+   <point/>
+  </object>
+  <object id="18" name="Giant snail" x="4394" y="2106">
+   <point/>
+  </object>
+  <object id="21" name="Giant snail" x="4142" y="2106">
+   <point/>
+  </object>
+  <object id="22" name="Field mouse" x="3736" y="2106">
+   <point/>
+  </object>
+  <object id="23" name="Field mouse" x="3394" y="2104">
+   <point/>
+  </object>
+  <object id="24" name="Field mouse" x="3116" y="2104">
+   <point/>
+  </object>
+  <object id="25" name="Field mouse" x="2774" y="2110">
+   <point/>
+  </object>
+  <object id="26" name="Green snake" x="2348.12" y="2111.09">
+   <point/>
+  </object>
+  <object id="27" name="Green snake" x="1990.55" y="2105.03">
+   <point/>
+  </object>
+  <object id="28" name="Green snake" x="1636" y="2111.09">
+   <point/>
+  </object>
+  <object id="29" name="Green snake" x="1302.67" y="2105.03">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

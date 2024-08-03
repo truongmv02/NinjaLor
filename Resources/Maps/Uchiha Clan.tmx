@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="90" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="13" nextobjectid="44">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl0tOwzAQht1sQDwrHjeA8kYVSAgJbtEtQl2wYMOi4gK5LJcIqordOpIJM844OH5U80t/UjmT8firNUmEYPlWtXJZ/2b1I+YcRsw5jJhzGDHnMGLOYcScw4g5h9HacB4sXcYuA9M6cV4I5ty3vtQho/08T3hPWJVZ36gy5Zzbfs6Vc279GeN8Kn2NeBSgzlYl2je+9ZnCWTE+aXF01oNl7yhjl9FUZZxtnCmMk2Cd6H6mcr6SviD6xnONu9LbgPeA2FSfg1TOSlPp9xZPjfi5pxoPpI8AH0LBCe5n1ZtdOX9qfzRcj78Z8T6+d+oc9dwvwDy/5JmzrzW49OczokdGzmYO7F0Fe3dROVTf2AEM9Q0bZyyPLXdzDSr9JtGFkYPK+VLQ+/M5UmPXHPvSW4CPBSALZyyPLTfEeYPoLpyHBb0/Dwu4xq45oPvMmD8gEM4+1iCE+3PKhfOTrH+mc7wiVtdmOhaqsWuO+r6Jjpk0Ykwt1AHhHHMNNs738vzM7tV30rfSD4DHyDjb3Y8BOPv8v8Yrl8i4dT7XcWoM5X4b59hMCXOV2uj1rnX+hz007ptzbPapWnH+Abo2PLs=
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmEtOwzAQQD2+Bkhhz4YNCyQErCrUVZE4QI/io/QoHIUjIMEii0rtWLWVqROjtJnimeAnjZK6+TjPo7ETYyocNGBcjNJ9mSvUcfV8OaJb6vgG+v9X+PGe5+S3Nebz67Bdl+5LZE6Oo980SvqO9Vm755xbKa6p56Q+q4E4dgNR3HVurRHa1UAcumSbjRLQtYfG2gHQ8/hbPrtSnueAJa7DfurZScjnJqnP2sjNgzv0u02ctwX76dHmGevFBuMj7A/XYejXjpJoW9fR/MX9F+88M+eJymU6B2rIa4B+zR2xdhaDJtftwDrOZuqHMMfqiK4xv9f+9za00zZJNNB5HpvL33jcj6CxiTVbGjR/U7djXD9ZY54tb5/OpSXvH1eCxn4I7d/+vWvJjrneUW5JbpccJy7XHM/QJN/momdpc+Gp/blm7D9XrqTPQOdCprGcfA0JTM094vTIcWhz065+fI+/4pX5fpfOFWn1I8edPcQD9vcRY4HxhrHCeMdYQnfMudxDF1POzUWlUqlUKv+ZPZMYvsQ=
+  </data>
+ </layer>
+ <objectgroup id="3" name="doors">
+  <object id="1" name="door" x="-40.5606" y="682.848" width="7.1515" height="1715.15">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Konoha"/>
+   </properties>
+  </object>
+  <object id="2" name="1" x="46.1061" y="2398.41">
+   <point/>
+  </object>
+  <object id="3" name="2" x="8592.11" y="2398.44">
+   <point/>
+  </object>
+  <object id="4" name="door" x="8679.36" y="1911.39" width="7.51513" height="485.576">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Copper Road"/>
+   </properties>
+  </object>
+  <object id="43" name="0" x="2496" y="2400">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="walls">
+  <object id="7" x="-62.5" y="2400" width="8762.83" height="480">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="8" x="300" y="2115.15" width="1139.39" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="9" x="384.848" y="2018.18" width="966.667" height="9.09091">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="10" x="300" y="1727.27" width="463.636" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="11" x="969.697" y="1733.33" width="469.697" height="9.09091">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="12" x="481.818" y="1527.27" width="775.758" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="13" x="390.909" y="1621.21" width="963.636" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="14" x="566.667" y="1439.39" width="590.909" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="15" x="1921.21" y="2115.15" width="1148.48" height="18.1818">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="16" x="2009.09" y="2020.24" width="972.727" height="9.09091">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="17" x="3275.76" y="2118.18" width="654.545" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="18" x="3360.61" y="2017.12" width="472.727" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="19" x="3269.7" y="1824.24" width="657.576" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="20" x="3357.58" y="1732.33" width="490.909" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="22" x="4987.88" y="2115.15" width="1160.61" height="18.1818">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="23" x="5083.88" y="2019.21" width="969.697" height="12.1212">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="24" x="6712.12" y="2018.24" width="984.848" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="25" x="6713.09" y="2115.15" width="972.727" height="15.1515">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="26" x="6666.67" y="2312.12">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="27" x="7718.18" y="2309.09">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="28" x="4284.85" y="1727.27" width="130.303" height="9.09091">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="monsters">
+  <object id="38" name="Scarecrow" x="6191" y="2398">
+   <point/>
+  </object>
+  <object id="39" name="Scarecrow" x="6956" y="2397">
+   <point/>
+  </object>
+  <object id="40" name="Scarecrow" x="7150" y="2398">
+   <point/>
+  </object>
+  <object id="42" name="Scarecrow" x="7342" y="2399">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="npcs">
+  <object id="32" name="Neko Sennin" x="3600.75" y="2398.88">
+   <point/>
+  </object>
+  <object id="35" name="Jiraiya" x="4849.5" y="2397">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

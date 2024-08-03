@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="96" tileheight="96" infinite="0" nextlayerid="8" nextobjectid="11">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="50" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztz0kOgCAQBED4uf+VR5h4Q6bxqIeqpMMQhq01AAAAWI1+5/hoXOqfvru6L61t/1T0xX2hfqbqS/27N7/Np7NPEYm5AFmASV0=
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="50" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztk8ENgCAMRYvDOIejOZzsgEyjHoikiUDBag//3TgU36ORCFjHO1r+dijR6rc5ZZFBWv3Q8Q29HRb+l9yht8PCfnIHdLzn0ws65HOaoEM+pwk65HOaoOPGs3M4z9HROiRWIRQcWju4d6LkvivuLFbeNTFPz3fwd5F+/+oLirvTvBsAYIsDOdg5MA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="doors">
+  <object id="5" name="door" x="-63.6667" y="1533.33" width="6.66667" height="386">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Red Rock Mountain"/>
+   </properties>
+  </object>
+  <object id="6" name="1" x="50" y="1918.67">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="monsters">
+  <object id="10" name="Samurai lord" x="2476" y="1716">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="walls">
+  <object id="1" x="-70" y="1920" width="4871" height="480">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="2" x="386" y="1821" width="4125" height="17">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="3" x="767" y="1727" width="3455" height="13">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="9" x="4798" y="1141.33" width="3.33333" height="778">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

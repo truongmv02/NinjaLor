@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="96" tileheight="96" infinite="0" nextlayerid="9" nextobjectid="65">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="50" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztl2EKgCAMhV3X6KL1Iwq6iPfqMvlHqGjm1mwm++CBkel7YstWcH49y1E1EBXnOrYfFOdK9nOBvnPFuc4Rrhesz909jJjxhbUqsBx10VqOv2e51jLKsxsUMsWAu6+42UuB5QhrvXzo4fE7mDGGyDgcf5wx75iBvq++8MWhtbqr7YPDsV5q5Mg836J7NXEe9lL1Sev9Sf1T/Ima/Uqv7wQ6bWlG0GlTSb0jJpOpDe2d/h1C
+  </data>
+ </layer>
+ <objectgroup id="2" name="walls">
+  <object id="6" x="3652" y="1633.67" width="572.818" height="12">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="8" x="4224.67" y="1344" width="479.25" height="12">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="15" x="4608.33" y="961" width="95.6667" height="10.6667">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="18" x="2690" y="1344.67" width="1054" height="12">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="19" x="1824.67" y="1440" width="670.667" height="12.6667">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="20" x="2116" y="956" width="768" height="24">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="21" x="1064" y="1060" width="656" height="20">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="22" x="3084" y="864" width="856" height="20">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="27" x="1249" y="768" width="280.667" height="11.3333">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="28" x="92" y="1540" width="484" height="12">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="29" x="91.3333" y="960" width="772" height="21.3333">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="42" x="0.666667" y="9.93939" width="91.3333" height="1618.73">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="43" x="-49.7917" y="1922.25" width="4928" height="475.333">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="60" x="4705.33" y="100" width="96" height="1525.33">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="doors">
+  <object id="56" name="1" x="46.6667" y="1924">
+   <point/>
+  </object>
+  <object id="61" name="2" x="4747.33" y="1922.67">
+   <point/>
+  </object>
+  <object id="62" name="door" x="-53" y="1630" width="10" height="292">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Copper Road"/>
+   </properties>
+  </object>
+  <object id="63" name="door" x="4828" y="1624" width="13" height="299">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Snow Mountain"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="monsters">
+  <object id="58" name="Ghost pumpkin" x="3048.13" y="1918.96">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

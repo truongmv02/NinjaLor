@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="11" nextobjectid="10">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl9ERgzAMQ8MI7Qa97tHf7j8Di/Cfk9NIiBCKufOPTfQsSCAppZTXUuAV5aMae7+Sd2ilX42ZfnXGbH4foIZyKqOlFdUYBsqx/bPPR9Via4jtYDp7PFor/Y75xrjYrJaD+Tb6jbRm8nu393slv8z8cc61SE9ZM616rcf8w53PPmKrjF4fe/cmPb3MxJiplxEMx9r61Quz7t1+azajz+7XFYZyjnAwRnxL0FiVEd2z58zgnmuo5vZ7xLlJnWtorLpmorEj91099TPeb/r9X7/PJd4rr2BsnVs7ekFaiN3SQuyWVs3+3iw+GRkZl40NLaNxQQ==
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlQ1KxEAMhaMn8lh7+15BRQeyj+9lkrqCiw0MoWmTeS9/vb1E3D7OEV86vvU6+ry+/ZTlk/U6EffPOf4BvmFihbzf4aPviJuLdwTzPSCe46V5IH5de5ev4st3U74nfHMcwl3VaaoVz0/57vKn/UrcFKez7+pb9UOFz2HKWuNW8xtxb48izuJLdse30/+T+aUYeh/FyxjUrr7Ks9pLThPvSX2rnOm7XX9UHKmPz/Rzlbcd3+4/Q/1dbrI9v+t839WPnl/lS/2r95HdxaY6O/zdPE3nd92vNuK1s9Oe7s7vWb6OX8VXY07qu+vnaX0rnXej5kfvnvZzB3/+Xu0uPxn3lG+O3+G77spYaF9lP/Vxs07/pgjOb9W3U77KLz/r/8DhndSxqi/heoTOcfXebFe+ijcLxSE7zYFiO8Or2luKQ/Pv9mPGt6uvs2suleMO986u9VFexIP2KPFT3NS3U7vbjxXfztxRHlz/Orzkp9K1u74jnNX/qqrLtL6KN+t8v4qzu51A+5ziufq6Onfx6TwTXuJCeHd2x4fwEF+yV3UjLtXR79XHxVCOZ+fX5YHE1a2Du/Jz/pWdYrl6uH1A7zvzRrEq3r8l033w7PIX+b69/q9zySWXXPIs8g5hXjV6
+  </data>
+ </layer>
+ <objectgroup id="3" name="walls">
+  <object id="4" x="-55.8256" y="2402.86" width="5892.41" height="475.622">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="doors">
+  <object id="5" name="door" x="5825.33" y="2016" width="14.6667" height="384">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Behind Konoha"/>
+   </properties>
+  </object>
+  <object id="6" name="2" x="66.6667" y="2397.33">
+   <point/>
+  </object>
+  <object id="7" name="door" x="-36.7958" y="2018" width="6.25817" height="385.325">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Lake"/>
+   </properties>
+  </object>
+  <object id="8" name="1" x="5721" y="2398">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="monsters">
+  <object id="9" name="Wild boar" x="2916.33" y="2400">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

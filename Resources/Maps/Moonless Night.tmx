@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="25" tilewidth="96" tileheight="96" infinite="0" nextlayerid="9" nextobjectid="7">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="30" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztkFEKwDAIQ7ub7ei7wmr1PPOjQghl+9hgP3kQpFpNa2tCCCGEEOJLzu0fRcpSA9QhGsWYNexxyvm812GWwUyfZ6M5nSLn2Zdz+I6Vrz34Vl8pFnN84YvK+p46xgtfvHf3XzzXzuuNtecL43B9PQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="walls">
+  <object id="1" x="-46" y="1919" width="2957" height="483"/>
+ </objectgroup>
+ <objectgroup id="4" name="doors">
+  <object id="2" name="door" x="-42.6667" y="1546.67" width="7.33333" height="371.333">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Snow Hill"/>
+   </properties>
+  </object>
+  <object id="3" name="door" x="2898" y="1533.33" width="6" height="386">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Rock Mountain"/>
+   </properties>
+  </object>
+  <object id="4" name="2" x="2830" y="1918.67">
+   <point/>
+  </object>
+  <object id="5" name="1" x="51.6667" y="1917.33">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="monsters">
+  <object id="6" name="Shadow ninja" x="1699.39" y="1907.03">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

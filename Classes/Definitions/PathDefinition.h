@@ -1,0 +1,21 @@
+#pragma once
+
+#define PATH_IMAGE_CHARACTER    std::string("Images/Character/")
+#define PATH_IMAGE_WEAPON       std::string("Images/Weapon/")
+#define PATH_IMAGE_MONSTER      std::string("Images/Monster/")
+#define PATH_IMAGE_UI           std::string("Images/UI/")
+#define PATH_IMAGE_OBJECT       std::string("Images/Object/")
+#define PATH_IMAGE_ITEM         std::string("Images/Item/")
+#define PATH_IMAGE_BULLET       std::string("Images/Bullet/")
+#define PATH_IMAGE_EFFECT       std::string("Images/Effect/")
+#define PATH_IMAGE_NUMBER       std::string("Images/Number/")
+#define PATH_IMAGE_NPC          std::string("Images/Npc/")
+#define PATH_MAP                std::string("Maps/")
+#define PATH_SOUND              std::string("Sounds/")
+#define PATH_FONT               std::string("Fonts/")
+
+#define DEFAULT_FONT            std::string(PATH_FONT + "Mitr.ttf")
+#define DEFAULT_FONT_BOLD       std::string(PATH_FONT + "Mitr-Bold.ttf")
+#define DEFAULT_FONT_MEDIUM     std::string(PATH_FONT + "Mitr-Medium.ttf")
+#define BUTTON_FONT             std::string(PATH_FONT + "arial.ttf")
+#define TITLE_FONT              std::string(PATH_FONT + "arial.ttf")

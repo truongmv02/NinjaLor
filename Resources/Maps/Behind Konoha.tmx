@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="90" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="14" nextobjectid="56">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl18KwjAMxjcPILgb+GfvPs0Xkb55/zN4EQk4CLJu+dpkbbcGgmiTdP76NWubxm/ndmZQId46pwdrL8VfgHrI3KVzRriQ3SrnoByU81I8wm5PnLfaN04rcZbOg+o5FWeUWwizkDwLPUsY5qLnrXMuuT9bzqOtvz1xRmK32jeuBXNeOjuT5cI5Nz0jXLT7s2TdRqucbetxs2LADek3SGxKzugdaQ3OyDkdmQPZu3vQc+0blTM37XMiN6QflsxZwlC7D3HLTc9IL9e+v1m+B63eUaG5FvcUikt57yZbQ89IrgVnqU6t7ilkVns6NNeCs5RJ6ecNJDelnivnadPmV/p9EMm1uA/moGc6P38EcRQTyrlrMc78eTpP3rGV/dcxrj/Mx9E4xT0C1+S9EX9m7q9Idwo1NHxgn/efDx6fG5N4SL4lK426zlPn/3cXyc7C+XpoMPGxiK3n2Hfpc8Zq0bcXYvdA6v1usTapdTzlX19aiDM=
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztWdFq5DAMdO+L+ln73fceFkLZ554hotPpSBqnvVLuMmCSjWRbHsuS7b09jXH7Uyb4eR9vYBnK71RYrtrnuojMHm630tmO8jgK64R8gN44ntv4iAfp4Dcuqv6t4TnjSukx11m7aq7Ypky/032ADLnZEtv38Z4brr/Ru5q/h5DjPEZ/n+WZdVm+wlunj/3cF9pkneBgPwpyouaq81cFh2dnPGo9V2u6462r5/QxEVzgM3TQ13Z6Yv2RfMM5iN88L1GXY5bjby7PVZ1svazynOkiZ7yW98L2kPO8oJx9+GV89PNB/XY8O2Nn/YDrz1UOPcvzxH58x3EG98p29L8sHnCeZB/mdtTvLm5k48J3jjEsd3lzee7yBsYDjL8cLwOTk5fhgflFVD7uxGfE38iDbj3H9ycwVgSquNEB+auQxe7gmftW8UDZ9915UK2xbO54P5zFDQcOx9znBM5PxXNAjQvfz8Rn1F89p1S6Fc7yHHC4xryAe8CM59W4McY5f456qo+sfcefFZTt6nyikOW/Sh/fu3jr5EGso3RX/LPSc/dBE4qTzHYnB65yzKXaP1T+w+9n9xsKrt93bbo8u/y5e5KIy44dZ/yZ8dU8o11ZnYC696l4XtlLOHdN2Tle2Trh+rPCCs/u3SC/V7ZU9xCsn/nqRs8JxXN2/lbzt5J3lH7UYTnrZfzF76pdx593IWc4dxeoW+VL5ccuz9l4Ov0VnlUeUDxnuYLb5Pshx3bc46LvqvOzuu9k8Pm86htRcb2aB/l7dsfxGX+Oc/ZEFXN5nxvfMnQ+z7JVnicqHwr5yp4rWwcVz5Ud3CZz3fG3ct7reHb8GeGuVdZX8hWelT7bVdmi/u+owH6a1fmquUDwuJ3ccyY+Z+jkXd74CXC5nuj8mXUZK3cI2Z7mQo+Lr+/BxfMbnn/9G+X3+NnlwoULFy5c+J/xCgvMUtA=
+  </data>
+ </layer>
+ <objectgroup id="3" name="doors">
+  <object id="1" name="door" x="8673.67" y="1919.67" width="8" height="482.667">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Konoha"/>
+   </properties>
+  </object>
+  <object id="2" name="1" x="8598.5" y="2398.83">
+   <point/>
+  </object>
+  <object id="4" name="door" x="-42.6667" y="1825.17" width="9.33333" height="574.667">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Strange Hill"/>
+   </properties>
+  </object>
+  <object id="5" name="2" x="49.8333" y="2399.83">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="monsters">
+  <object id="32" name="Gray rabbit" x="8094" y="2394.33">
+   <point/>
+  </object>
+  <object id="33" name="Gray rabbit" x="7804.67" y="2394.33">
+   <point/>
+  </object>
+  <object id="34" name="Gray rabbit" x="7326" y="2395.67">
+   <point/>
+  </object>
+  <object id="35" name="Gray rabbit" x="6839.33" y="2391.67">
+   <point/>
+  </object>
+  <object id="36" name="Cruel mouse" x="6460.67" y="2393">
+   <point/>
+  </object>
+  <object id="37" x="6176.67" y="2394.33">
+   <point/>
+  </object>
+  <object id="38" name="Cruel mouse" x="6176.67" y="2394.33">
+   <point/>
+  </object>
+  <object id="39" name="Cruel mouse" x="5796.67" y="2391.67">
+   <point/>
+  </object>
+  <object id="40" name="Cruel mouse" x="5392.67" y="2394.33">
+   <point/>
+  </object>
+  <object id="41" name="Cruel mouse" x="5058" y="2391.67">
+   <point/>
+  </object>
+  <object id="42" name="Cruel mouse" x="4578" y="2394.33">
+   <point/>
+  </object>
+  <object id="43" name="Spotted spider" x="4186.48" y="2393.97">
+   <point/>
+  </object>
+  <object id="44" name="Spotted spider" x="3882.67" y="2396.33">
+   <point/>
+  </object>
+  <object id="45" name="Spotted spider" x="3695.33" y="2391.67">
+   <point/>
+  </object>
+  <object id="46" name="Spotted spider" x="3376" y="2394.33">
+   <point/>
+  </object>
+  <object id="47" name="Mole" x="2966" y="2395">
+   <point/>
+  </object>
+  <object id="48" name="Mole" x="2692" y="2393">
+   <point/>
+  </object>
+  <object id="49" name="Mole" x="2248" y="2395">
+   <point/>
+  </object>
+  <object id="50" name="Mole" x="1936" y="2389">
+   <point/>
+  </object>
+  <object id="52" name="Yellow turtle" x="1583.33" y="2395.33">
+   <point/>
+  </object>
+  <object id="53" name="Yellow turtle" x="1314" y="2397.33">
+   <point/>
+  </object>
+  <object id="54" name="Yellow turtle" x="1112" y="2397.33">
+   <point/>
+  </object>
+  <object id="55" name="Yellow turtle" x="820.667" y="2395.33">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="walls">
+  <object id="3" x="-54.6667" y="2400" width="8761" height="478.667">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

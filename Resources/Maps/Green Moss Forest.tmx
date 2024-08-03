@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="40" height="25" tilewidth="96" tileheight="96" infinite="0" nextlayerid="7" nextobjectid="34">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="2" name="Tile Layer 2" width="40" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6Hbf+jQMfpRcNVUVVXV1wcNv+Be
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzNlFEOgzAMQ+nNOVQH23642hBqpypKS5y6AFIkPop5sdPEMD3y2XauV6pvB2Mc1F/J52X8CI3eXpl8GhuTs4fvjI3BmPkioLWEaV73c1qVWgzGK/xj8MVUVh3JVvOz9FXTfoej5lT/95Ivgn1KNi1PlodIvkieNXaU0cpXsmn5jfJwE71q37fuq5wxyzyy/fPkyvLQsv8YfFlf83Np8KL+oTmz/PPma70X8qyVMfPVPPdm693XqH8oX8tPzy5k8yE9IHyWub+z2B6xZgLRkDoM3ZE9XcV39p9RHHf6z64fc7rMbw==
+  </data>
+ </layer>
+ <objectgroup id="3" name="doors">
+  <object id="4" name="door" x="-59.3334" y="1151.34" width="12.6667" height="669.333">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Ancient Ruins"/>
+   </properties>
+  </object>
+  <object id="6" name="door" x="3897.33" y="1432" width="8.66667" height="386">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Strange Mountain Range"/>
+   </properties>
+  </object>
+  <object id="31" name="1" x="3790.67" y="1818.67">
+   <point/>
+  </object>
+  <object id="32" name="2" x="48" y="1818.67">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="monsters">
+  <object id="30" name="Hell scorpion" x="1756" y="1816">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="walls">
+  <properties>
+   <property name="type" type="int" value="1"/>
+  </properties>
+  <object id="1" x="-57.6667" y="1824.5" width="3965.67" height="575.5">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object id="8" x="2493" y="1248" width="580" height="15">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="9" x="1922" y="1536" width="765" height="14">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="10" x="1920" y="1056" width="672" height="15">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="11" x="2878.67" y="672" width="578" height="11.3333">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="12" x="1534.67" y="672" width="769.333" height="11.3333">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="13" x="672.33" y="1055.85" width="959.667" height="15.8182">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="14" x="1055.33" y="960" width="480" height="13.3333">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="15" x="960.67" y="1344" width="863.333" height="14">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="17" x="1055.33" y="479.333" width="672" height="14.6667">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="22" x="0.667" y="1535.33" width="479" height="8.66667">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </object>
+  <object id="33" x="3842" y="-18" width="10" height="1430"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="96" tileheight="96" infinite="0" nextlayerid="7" nextobjectid="74">
+ <tileset firstgid="1" source="home.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEKwCAMA1D9+vnZu8rYoZU2UZtCLgqSJx29tWGIdyxv7pxqXq+Z3VXeOPPfObtntvd7x+6Z6b15n2Wu4bWY2f3kzfVWNLP7oc3sbmgzu5e8Mkd7b3ZHmU/5p7njive0/UAM24j27mRGDtuK9lY0e7s9xcLeBUVR1vMC/4caHg==
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztV+0KhCAQ3Osh7pWDC7weOYMCEdP9lKwd8J/r7NQ0bgAA/w/AL64eoHJJeyvVu147uF7d/Zh66ZlLrJ0vVojrO/G57qa3pjXXzeEq7cdw1vhqPazKPqfo3bl7vN/W8wvK/Cm0uUfLKws+aQ9pHmH5d68uCn7B8p2geofrN6lPsfnU0vt0cPWeOU3xrhQadwPFz5R7lds75S69AnYGmI19XerDMptGh+UcQOXydzUmNDIRm03hmDuomd/6H5PUc/Mxr+n5Lb4Jube0/+/uBKnPa2e4/xwOh8PxZLTmA+n8sAGs4J8g
+  </data>
+ </layer>
+ <objectgroup id="3" name="doors">
+  <object id="4" name="door" x="-73.3333" y="1982.67" width="20" height="417.333">
+   <properties>
+    <property name="next_door" type="int" value="2"/>
+    <property name="next_map" value="Rock Mountain"/>
+   </properties>
+  </object>
+  <object id="5" name="1" x="52.6667" y="2398">
+   <point/>
+  </object>
+  <object id="6" name="door" x="5792.33" y="1989.33" width="10.6667" height="408.667">
+   <properties>
+    <property name="next_door" type="int" value="1"/>
+    <property name="next_map" value="Arena"/>
+   </properties>
+  </object>
+  <object id="7" name="2" x="5717.33" y="2399.33">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="monsters">
+  <object id="31" name="Devil eyes" x="468" y="2398">
+   <point/>
+  </object>
+  <object id="33" name="Devil eyes" x="942" y="2396">
+   <point/>
+  </object>
+  <object id="34" name="Devil eyes" x="956" y="2104">
+   <point/>
+  </object>
+  <object id="36" name="Devil eyes" x="226" y="1822">
+   <point/>
+  </object>
+  <object id="37" name="Devil eyes" x="538" y="1822">
+   <point/>
+  </object>
+  <object id="38" name="Devil eyes" x="834" y="1536">
+   <point/>
+  </object>
+  <object id="39" name="Devil eyes" x="1296" y="1534">
+   <point/>
+  </object>
+  <object id="40" name="Devil eyes" x="152" y="1250">
+   <point/>
+  </object>
+  <object id="41" name="Devil eyes" x="736" y="1242">
+   <point/>
+  </object>
+  <object id="42" name="Devil eyes" x="1680" y="2390">
+   <point/>
+  </object>
+  <object id="43" name="Devil eyes" x="2160" y="2390">
+   <point/>
+  </object>
+  <object id="44" name="Devil eyes" x="1904" y="1814">
+   <point/>
+  </object>
+  <object id="45" name="One legged monster" x="188" y="952">
+   <point/>
+  </object>
+  <object id="46" name="One legged monster" x="636" y="662">
+   <point/>
+  </object>
+  <object id="47" name="One legged monster" x="1140" y="662">
+   <point/>
+  </object>
+  <object id="48" name="One legged monster" x="1364" y="954">
+   <point/>
+  </object>
+  <object id="49" name="One legged monster" x="1886" y="382">
+   <point/>
+  </object>
+  <object id="50" name="One legged monster" x="2108" y="472">
+   <point/>
+  </object>
+  <object id="51" name="One legged monster" x="2468" y="1336">
+   <point/>
+  </object>
+  <object id="52" name="One legged monster" x="2880" y="952">
+   <point/>
+  </object>
+  <object id="53" x="5036" y="1242">
+   <point/>
+  </object>
+  <object id="54" name="Green Kappa" x="5036" y="1242">
+   <point/>
+  </object>
+  <object id="55" name="Green Kappa" x="5524" y="1242">
+   <point/>
+  </object>
+  <object id="56" name="Green Kappa" x="4616" y="952">
+   <point/>
+  </object>
+  <object id="57" name="Green Kappa" x="4740" y="474">
+   <point/>
+  </object>
+  <object id="58" name="Green Kappa" x="3876" y="672">
+   <point/>
+  </object>
+  <object id="59" name="Green Kappa" x="3500" y="1246">
+   <point/>
+  </object>
+  <object id="60" name="Green Kappa" x="4182" y="1438">
+   <point/>
+  </object>
+  <object id="61" name="Green Kappa" x="2878" y="1724">
+   <point/>
+  </object>
+  <object id="63" name="Green Kappa" x="3038" y="1818">
+   <point/>
+  </object>
+  <object id="64" name="Old tree" x="2878" y="2394">
+   <point/>
+  </object>
+  <object id="65" name="Old tree" x="3234" y="2390">
+   <point/>
+  </object>
+  <object id="67" name="Old tree" x="3526" y="2394">
+   <point/>
+  </object>
+  <object id="68" name="Old tree" x="3956" y="2402">
+   <point/>
+  </object>
+  <object id="69" name="Old tree" x="4442" y="2392">
+   <point/>
+  </object>
+  <object id="70" name="Old tree" x="4668" y="1720">
+   <point/>
+  </object>
+  <object id="72" name="Old tree" x="5226" y="2012">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="walls">
+  <object id="1" x="-76.1212" y="2399.5" width="5902.58" height="481">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="2" x="5753.48" y="-3.0303" width="21.2121" height="1990.91">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="3" x="-24.2424" y="3.0303" width="24.2424" height="1975.76">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="8" x="95" y="1824.5" width="866" height="13">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="9" x="575" y="1536" width="962" height="16">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="10" x="1632" y="1823" width="576" height="15">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="11" x="2206" y="1343" width="580" height="16">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="12" x="2496" y="1823" width="868" height="25">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="13" x="2593" y="1728" width="478" height="13">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="14" x="3071" y="1247" width="960" height="17">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="15" x="3745" y="1441" width="862" height="18">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="16" x="4319" y="1728" width="767" height="13">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="17" x="4896" y="2017" width="767" height="11">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="18" x="4704" y="1248" width="1048" height="18">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="19" x="4033" y="960" width="863" height="12">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="20" x="3455" y="673" width="866" height="23">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="21" x="2497" y="959" width="862" height="22">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="22" x="2976" y="864" width="287" height="17">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="23" x="1534" y="479" width="1057" height="21">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="24" x="1633" y="385" width="766" height="15">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="25" x="479" y="671" width="864" height="20">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="26" x="-1" y="959" width="770" height="19"/>
+  <object id="27" x="1" y="1248" width="1628" height="21">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="28" x="1152" y="960" width="864" height="20">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="29" x="769" y="2111" width="670" height="22">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="30" x="4320" y="479" width="959" height="17">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
